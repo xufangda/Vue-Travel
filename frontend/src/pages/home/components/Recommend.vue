@@ -5,8 +5,8 @@
       <li class="item border-bottom" v-for="item of recommendList" :key='item.id'>
         <img class="item-img" :src='item.imgUrl'>
         <div class="item-info">
-          <p class="item-title">{{item.title}}}</p>
-          <p class="item-desc">{{item.desc}}}</p>
+          <p class="item-title">{{item.title}}</p>
+          <p class="item-desc">{{item.desc}}</p>
           <button class="item-button">查看详情</button>
         </div>
 
