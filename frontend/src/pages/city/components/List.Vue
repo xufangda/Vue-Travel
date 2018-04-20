@@ -117,7 +117,6 @@ export default {
             text-align center
             border .02rem  solid
             border-radius .06rem
-
       .item-list
         .item
           line-height .76rem

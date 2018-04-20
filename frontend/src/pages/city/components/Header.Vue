@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    城市选择
+    <div class="header-title">城市选择</div>
     <router-link to="/">
       <div class="iconfont header-back">&#xe624;</div>
     </router-link>
@@ -24,6 +24,10 @@ export default {
     color #ffffff
     background $bgColor
     font-size:.32rem
+    .header-title
+      position absolute
+      left:50%
+      transform:translate(-50%);
     .header-back
       position absolute
       top 0
