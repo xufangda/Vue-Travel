@@ -1,19 +1,25 @@
 <template>
   <div>
     <detail-banner></detail-banner>
+    <detail-header></detail-header>
+    <div class="content">11223</div>
   </div>
 </template>
 
 <script>
 import DetailBanner from './components/banner'
+import DetailHeader from './components/header'
+
 export default {
   name: 'detail',
   components: {
-    DetailBanner
+    DetailBanner,
+    DetailHeader
   }
 }
 </script>
 
 <style lang="stylus" scoped>
-
+.content
+  height 50rem
 </style>
